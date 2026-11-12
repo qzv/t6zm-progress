@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1165,
+    "matched": 1169,
     "total": 22620
   },
   "bytes": {
-    "matched": 70757,
+    "matched": 71072,
     "total": 5866711
   },
   "not_counted": {
@@ -19,11 +19,11 @@
       "bytes": 32234
     }
   },
-  "percent": 1.206,
+  "percent": 1.211,
   "nonmatching": 45,
   "names": {
     "high": 503,
-    "medium": 278,
+    "medium": 282,
     "low": 97,
     "unrated": 289,
     "placeholder": 0
@@ -226,6 +226,12 @@
       "matched": 1,
       "nonmatching": 0,
       "bytes": 141
+    },
+    {
+      "source": "src/client_mp/sv_client_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 90
     },
     {
       "source": "src/clientscript/cscr_animtree.cpp",
@@ -619,9 +625,9 @@
     },
     {
       "source": "src/qcommon/msg_mp.cpp",
-      "matched": 10,
+      "matched": 11,
       "nonmatching": 0,
-      "bytes": 628
+      "bytes": 722
     },
     {
       "source": "src/qcommon/net_chan_mp.cpp",
@@ -661,9 +667,9 @@
     },
     {
       "source": "src/server/sv_game.cpp",
-      "matched": 6,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 183
+      "bytes": 242
     },
     {
       "source": "src/server_mp/sv_ccmds_mp.cpp",
@@ -697,9 +703,9 @@
     },
     {
       "source": "src/stringed/stringed_hooks.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 94
+      "bytes": 166
     },
     {
       "source": "src/ui/demo_contentserver.cpp",
@@ -969,13 +975,13 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 730,
-      "bytes": 50878
+      "functions": 732,
+      "bytes": 51040
     },
     {
       "name": "jz0",
-      "functions": 435,
-      "bytes": 19879
+      "functions": 437,
+      "bytes": 20032
     }
   ]
 }
