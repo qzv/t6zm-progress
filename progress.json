@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 935,
+    "matched": 938,
     "total": 22620
   },
   "bytes": {
-    "matched": 57674,
+    "matched": 57807,
     "total": 5866711
   },
   "not_counted": {
@@ -19,10 +19,10 @@
       "bytes": 32234
     }
   },
-  "percent": 0.983,
+  "percent": 0.985,
   "nonmatching": 45,
   "names": {
-    "high": 360,
+    "high": 363,
     "medium": 193,
     "low": 95,
     "unrated": 289,
@@ -37,9 +37,9 @@
     },
     {
       "source": "src/EffectsCore/fx_load_obj.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 18
+      "bytes": 39
     },
     {
       "source": "src/EffectsCore/fx_marks.cpp",
@@ -49,9 +49,9 @@
     },
     {
       "source": "src/EffectsCore/fx_system.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 98
+      "bytes": 130
     },
     {
       "source": "src/aim_assist/aim_assist.cpp",
@@ -504,6 +504,12 @@
       "bytes": 16
     },
     {
+      "source": "src/qcommon/dobj_management.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 80
+    },
+    {
       "source": "src/qcommon/dvar_cmds.cpp",
       "matched": 4,
       "nonmatching": 0,
@@ -818,8 +824,8 @@
     },
     {
       "name": "jz0",
-      "functions": 296,
-      "bytes": 10399
+      "functions": 299,
+      "bytes": 10532
     }
   ]
 }
