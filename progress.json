@@ -2,19 +2,19 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 566,
+    "matched": 578,
     "total": 28799
   },
   "bytes": {
-    "matched": 40729,
+    "matched": 40944,
     "total": 7113178
   },
-  "percent": 0.573,
+  "percent": 0.576,
   "nonmatching": 45,
   "names": {
-    "high": 71,
-    "medium": 156,
-    "low": 53,
+    "high": 78,
+    "medium": 160,
+    "low": 54,
     "unrated": 286,
     "placeholder": 2
   },
@@ -51,9 +51,9 @@
     },
     {
       "source": "src/client/cl_console.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 10
+      "bytes": 26
     },
     {
       "source": "src/client/cl_gamepad.cpp",
@@ -68,10 +68,22 @@
       "bytes": 44
     },
     {
+      "source": "src/client_mp/cl_cgame_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 7
+    },
+    {
       "source": "src/client_mp/cl_input_mp.cpp",
       "matched": 1,
       "nonmatching": 0,
       "bytes": 6
+    },
+    {
+      "source": "src/database/db_file_load.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 14
     },
     {
       "source": "src/database/db_registry.cpp",
@@ -87,9 +99,9 @@
     },
     {
       "source": "src/game/g_hudelem.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 191
+      "bytes": 268
     },
     {
       "source": "src/game/g_items.cpp",
@@ -141,9 +153,9 @@
     },
     {
       "source": "src/live/live_stats.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 18
+      "bytes": 33
     },
     {
       "source": "src/live/live_storage.cpp",
@@ -182,6 +194,12 @@
       "bytes": 162
     },
     {
+      "source": "src/qcommon/cmd.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 13
+    },
+    {
       "source": "src/qcommon/common.cpp",
       "matched": 2,
       "nonmatching": 0,
@@ -201,15 +219,21 @@
     },
     {
       "source": "src/qcommon/msg_mp.cpp",
-      "matched": 9,
+      "matched": 10,
       "nonmatching": 0,
-      "bytes": 616
+      "bytes": 628
     },
     {
       "source": "src/qcommon/net_chan_mp.cpp",
       "matched": 5,
       "nonmatching": 0,
       "bytes": 334
+    },
+    {
+      "source": "src/qcommon/radiant_remote.cpp",
+      "matched": 3,
+      "nonmatching": 0,
+      "bytes": 33
     },
     {
       "source": "src/qcommon/threads.cpp",
@@ -267,9 +291,9 @@
     },
     {
       "source": "src/ui/ui_playlists.cpp",
-      "matched": 3,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 22
+      "bytes": 50
     },
     {
       "source": "src/ui/ui_utils.cpp",
@@ -473,13 +497,13 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 498,
-      "bytes": 40175
+      "functions": 499,
+      "bytes": 40252
     },
     {
       "name": "jz0",
-      "functions": 68,
-      "bytes": 554
+      "functions": 79,
+      "bytes": 692
     }
   ]
 }
