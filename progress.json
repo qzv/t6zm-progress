@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 793,
+    "matched": 805,
     "total": 25442
   },
   "bytes": {
-    "matched": 48697,
+    "matched": 49581,
     "total": 6530690
   },
   "not_counted": {
@@ -19,11 +19,11 @@
       "bytes": 32234
     }
   },
-  "percent": 0.746,
+  "percent": 0.759,
   "nonmatching": 45,
   "names": {
-    "high": 237,
-    "medium": 177,
+    "high": 245,
+    "medium": 181,
     "low": 94,
     "unrated": 287,
     "placeholder": 0
@@ -162,10 +162,22 @@
       "bytes": 76
     },
     {
+      "source": "src/client_mp/cl_scrn_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 141
+    },
+    {
       "source": "src/clientscript/cscr_animtree.cpp",
       "matched": 2,
       "nonmatching": 0,
       "bytes": 44
+    },
+    {
+      "source": "src/clientscript/cscr_memorytree.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 100
     },
     {
       "source": "src/database/db_file_load.cpp",
@@ -241,9 +253,9 @@
     },
     {
       "source": "src/game/g_targets.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 182
+      "bytes": 262
     },
     {
       "source": "src/game/pathnode.cpp",
@@ -277,9 +289,9 @@
     },
     {
       "source": "src/game_mp/g_scr_main_mp.cpp",
-      "matched": 20,
+      "matched": 29,
       "nonmatching": 0,
-      "bytes": 1113
+      "bytes": 1676
     },
     {
       "source": "src/game_mp/g_spawnsystem_mp.cpp",
@@ -705,8 +717,8 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 580,
-      "bytes": 42925
+      "functions": 592,
+      "bytes": 43809
     },
     {
       "name": "jz0",
