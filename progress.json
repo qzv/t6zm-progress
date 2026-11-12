@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 758,
+    "matched": 765,
     "total": 25442
   },
   "bytes": {
-    "matched": 46668,
+    "matched": 47003,
     "total": 6530690
   },
   "not_counted": {
@@ -19,10 +19,10 @@
       "bytes": 32234
     }
   },
-  "percent": 0.715,
+  "percent": 0.72,
   "nonmatching": 45,
   "names": {
-    "high": 204,
+    "high": 211,
     "medium": 175,
     "low": 95,
     "unrated": 286,
@@ -127,9 +127,9 @@
     },
     {
       "source": "src/client/cl_gamepad.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 34
+      "bytes": 78
     },
     {
       "source": "src/client/cl_keys.cpp",
@@ -235,9 +235,9 @@
     },
     {
       "source": "src/game/g_targets.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 67
+      "bytes": 121
     },
     {
       "source": "src/game/pathnode.cpp",
@@ -282,6 +282,12 @@
       "bytes": 50
     },
     {
+      "source": "src/gfx_d3d/r_extracam.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 35
+    },
+    {
       "source": "src/gfx_d3d/r_init.cpp",
       "matched": 5,
       "nonmatching": 0,
@@ -310,6 +316,12 @@
       "matched": 1,
       "nonmatching": 0,
       "bytes": 45
+    },
+    {
+      "source": "src/live/live_fileshare.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 50
     },
     {
       "source": "src/live/live_sessions_win.cpp",
@@ -481,9 +493,9 @@
     },
     {
       "source": "src/ui/ui_utils.cpp",
-      "matched": 2,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 26
+      "bytes": 178
     },
     {
       "source": "src/ui_mp/ui_main_mp.cpp",
@@ -681,13 +693,13 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 576,
-      "bytes": 42711
+      "functions": 578,
+      "bytes": 42803
     },
     {
       "name": "jz0",
-      "functions": 182,
-      "bytes": 3957
+      "functions": 187,
+      "bytes": 4200
     }
   ]
 }
