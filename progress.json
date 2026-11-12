@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1264,
+    "matched": 1400,
     "total": 22620
   },
   "bytes": {
-    "matched": 76253,
+    "matched": 79105,
     "total": 5866711
   },
   "not_counted": {
@@ -19,12 +19,12 @@
       "bytes": 32234
     }
   },
-  "percent": 1.3,
+  "percent": 1.348,
   "nonmatching": 45,
   "names": {
-    "high": 533,
-    "medium": 329,
-    "low": 115,
+    "high": 557,
+    "medium": 340,
+    "low": 216,
     "unrated": 289,
     "placeholder": 0
   },
@@ -37,9 +37,9 @@
     },
     {
       "source": "src/EffectsCore/fx_load_obj.cpp",
-      "matched": 3,
+      "matched": 31,
       "nonmatching": 0,
-      "bytes": 60
+      "bytes": 762
     },
     {
       "source": "src/EffectsCore/fx_marks.cpp",
@@ -49,9 +49,9 @@
     },
     {
       "source": "src/EffectsCore/fx_system.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 130
+      "bytes": 143
     },
     {
       "source": "src/aim_assist/aim_assist.cpp",
@@ -97,9 +97,9 @@
     },
     {
       "source": "src/bgame/bg_unlockable_items.cpp",
-      "matched": 17,
+      "matched": 19,
       "nonmatching": 0,
-      "bytes": 666
+      "bytes": 793
     },
     {
       "source": "src/bgame/bg_vehicle_anim.cpp",
@@ -139,15 +139,15 @@
     },
     {
       "source": "src/cgame/cg_draw_names.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 124
+      "bytes": 129
     },
     {
       "source": "src/cgame/cg_scr_main.cpp",
-      "matched": 108,
+      "matched": 111,
       "nonmatching": 0,
-      "bytes": 4936
+      "bytes": 4957
     },
     {
       "source": "src/cgame/cg_visionsets.cpp",
@@ -157,9 +157,21 @@
     },
     {
       "source": "src/cgame/cg_weapons.cpp",
+      "matched": 4,
+      "nonmatching": 0,
+      "bytes": 151
+    },
+    {
+      "source": "src/cgame_mp/cg_draw_mp.cpp",
       "matched": 2,
       "nonmatching": 0,
-      "bytes": 136
+      "bytes": 26
+    },
+    {
+      "source": "src/cgame_mp/cg_main_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 11
     },
     {
       "source": "src/cgame_mp/cg_players_mp.cpp",
@@ -169,15 +181,15 @@
     },
     {
       "source": "src/cgame_mp/cg_scoreboard_mp.cpp",
-      "matched": 5,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 259
+      "bytes": 291
     },
     {
       "source": "src/client/cl_console.cpp",
-      "matched": 9,
+      "matched": 10,
       "nonmatching": 0,
-      "bytes": 206
+      "bytes": 211
     },
     {
       "source": "src/client/cl_gamepad.cpp",
@@ -187,33 +199,33 @@
     },
     {
       "source": "src/client/cl_keys.cpp",
-      "matched": 2,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 44
+      "bytes": 85
     },
     {
       "source": "src/client/con_channels.cpp",
-      "matched": 5,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 277
+      "bytes": 347
     },
     {
       "source": "src/client_mp/cl_cgame_mp.cpp",
-      "matched": 8,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 249
+      "bytes": 266
     },
     {
       "source": "src/client_mp/cl_input_mp.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 6
+      "bytes": 11
     },
     {
       "source": "src/client_mp/cl_main_mp.cpp",
-      "matched": 19,
+      "matched": 27,
       "nonmatching": 0,
-      "bytes": 905
+      "bytes": 961
     },
     {
       "source": "src/client_mp/cl_main_pc.cpp",
@@ -235,9 +247,9 @@
     },
     {
       "source": "src/client_mp/sv_client_mp.cpp",
-      "matched": 1,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 90
+      "bytes": 187
     },
     {
       "source": "src/clientscript/cscr_animtree.cpp",
@@ -252,16 +264,28 @@
       "bytes": 100
     },
     {
-      "source": "src/clientscript/cscr_vm.cpp",
-      "matched": 2,
+      "source": "src/clientscript/cscr_variable.cpp",
+      "matched": 1,
       "nonmatching": 0,
-      "bytes": 51
+      "bytes": 5
+    },
+    {
+      "source": "src/clientscript/cscr_vm.cpp",
+      "matched": 3,
+      "nonmatching": 0,
+      "bytes": 69
+    },
+    {
+      "source": "src/clientscript/scr_const.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 20
     },
     {
       "source": "src/database/db_file_load.cpp",
-      "matched": 2,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 46
+      "bytes": 63
     },
     {
       "source": "src/database/db_load.cpp",
@@ -271,9 +295,15 @@
     },
     {
       "source": "src/database/db_registry.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 151
+      "bytes": 218
+    },
+    {
+      "source": "src/ddl/ddl_api.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 31
     },
     {
       "source": "src/ddl/ddl_cmd.cpp",
@@ -349,9 +379,9 @@
     },
     {
       "source": "src/game/g_items.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 43
+      "bytes": 55
     },
     {
       "source": "src/game/g_load_utils.cpp",
@@ -361,9 +391,9 @@
     },
     {
       "source": "src/game/g_missile.cpp",
-      "matched": 8,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 743
+      "bytes": 780
     },
     {
       "source": "src/game/g_scr_mover.cpp",
@@ -391,9 +421,9 @@
     },
     {
       "source": "src/game/pathnode.cpp",
-      "matched": 3,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 113
+      "bytes": 206
     },
     {
       "source": "src/game/pathnode_load_obj.cpp",
@@ -439,9 +469,9 @@
     },
     {
       "source": "src/game_mp/g_scr_main_mp.cpp",
-      "matched": 98,
+      "matched": 106,
       "nonmatching": 0,
-      "bytes": 6787
+      "bytes": 6940
     },
     {
       "source": "src/game_mp/g_spawnsystem_mp.cpp",
@@ -450,10 +480,16 @@
       "bytes": 142
     },
     {
-      "source": "src/game_mp/g_utils_mp.cpp",
-      "matched": 9,
+      "source": "src/game_mp/g_trigger_mp.cpp",
+      "matched": 1,
       "nonmatching": 0,
-      "bytes": 273
+      "bytes": 24
+    },
+    {
+      "source": "src/game_mp/g_utils_mp.cpp",
+      "matched": 15,
+      "nonmatching": 0,
+      "bytes": 366
     },
     {
       "source": "src/gfx_d3d/r_cinematic.cpp",
@@ -517,9 +553,9 @@
     },
     {
       "source": "src/live/live_counter.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 148
+      "bytes": 180
     },
     {
       "source": "src/live/live_elite.cpp",
@@ -558,10 +594,22 @@
       "bytes": 38
     },
     {
-      "source": "src/live/live_sessions_win.cpp",
-      "matched": 4,
+      "source": "src/live/live_groups_dw.cpp",
+      "matched": 1,
       "nonmatching": 0,
-      "bytes": 122
+      "bytes": 13
+    },
+    {
+      "source": "src/live/live_sessions.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 8
+    },
+    {
+      "source": "src/live/live_sessions_win.cpp",
+      "matched": 5,
+      "nonmatching": 0,
+      "bytes": 127
     },
     {
       "source": "src/live/live_stats.cpp",
@@ -601,9 +649,9 @@
     },
     {
       "source": "src/physics/destructible.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 138
+      "bytes": 154
     },
     {
       "source": "src/physics/phys_collision.cpp",
@@ -655,9 +703,9 @@
     },
     {
       "source": "src/qcommon/com_gamemodes.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 98
+      "bytes": 110
     },
     {
       "source": "src/qcommon/com_gametypesettings.cpp",
@@ -673,9 +721,9 @@
     },
     {
       "source": "src/qcommon/common.cpp",
-      "matched": 10,
+      "matched": 14,
       "nonmatching": 0,
-      "bytes": 354
+      "bytes": 492
     },
     {
       "source": "src/qcommon/dobj_management.cpp",
@@ -697,21 +745,21 @@
     },
     {
       "source": "src/qcommon/msg_mp.cpp",
-      "matched": 11,
+      "matched": 12,
       "nonmatching": 0,
-      "bytes": 722
+      "bytes": 757
     },
     {
       "source": "src/qcommon/net_chan_mp.cpp",
-      "matched": 7,
+      "matched": 12,
       "nonmatching": 0,
-      "bytes": 406
+      "bytes": 536
     },
     {
       "source": "src/qcommon/radiant_remote.cpp",
-      "matched": 8,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 292
+      "bytes": 303
     },
     {
       "source": "src/qcommon/statmonitor.cpp",
@@ -745,33 +793,39 @@
     },
     {
       "source": "src/server/sv_game.cpp",
-      "matched": 8,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 259
+      "bytes": 264
     },
     {
       "source": "src/server_mp/sv_ccmds_mp.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 87
+      "bytes": 92
     },
     {
       "source": "src/server_mp/sv_init_mp.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 216
+      "bytes": 249
     },
     {
       "source": "src/server_mp/sv_main_mp.cpp",
-      "matched": 3,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 141
+      "bytes": 191
     },
     {
       "source": "src/server_mp/sv_main_pc_mp.cpp",
       "matched": 3,
       "nonmatching": 0,
       "bytes": 53
+    },
+    {
+      "source": "src/server_mp/sv_snapshot_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 11
     },
     {
       "source": "src/sound/snd_debug.cpp",
@@ -781,9 +835,9 @@
     },
     {
       "source": "src/stringed/stringed_hooks.cpp",
-      "matched": 5,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 166
+      "bytes": 197
     },
     {
       "source": "src/ui/demo_contentserver.cpp",
@@ -793,9 +847,9 @@
     },
     {
       "source": "src/ui/ui_emblem.cpp",
-      "matched": 25,
+      "matched": 27,
       "nonmatching": 0,
-      "bytes": 516
+      "bytes": 529
     },
     {
       "source": "src/ui/ui_friends.cpp",
@@ -811,21 +865,21 @@
     },
     {
       "source": "src/ui/ui_main.cpp",
-      "matched": 1,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 99
+      "bytes": 154
     },
     {
       "source": "src/ui/ui_playlists.cpp",
-      "matched": 9,
+      "matched": 11,
       "nonmatching": 0,
-      "bytes": 246
+      "bytes": 284
     },
     {
       "source": "src/ui/ui_shared.cpp",
-      "matched": 5,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 239
+      "bytes": 244
     },
     {
       "source": "src/ui/ui_shared_obj.cpp",
@@ -835,21 +889,21 @@
     },
     {
       "source": "src/ui/ui_utils.cpp",
-      "matched": 5,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 178
+      "bytes": 280
     },
     {
       "source": "src/ui_mp/ui_main_mp.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 193
+      "bytes": 198
     },
     {
       "source": "src/universal/com_files.cpp",
-      "matched": 10,
+      "matched": 12,
       "nonmatching": 0,
-      "bytes": 787
+      "bytes": 807
     },
     {
       "source": "src/universal/com_math.cpp",
@@ -919,9 +973,9 @@
     },
     {
       "source": "src/universal/dvar.cpp",
-      "matched": 63,
+      "matched": 64,
       "nonmatching": 2,
-      "bytes": 3467
+      "bytes": 3485
     },
     {
       "source": "src/universal/mem_default.cpp",
@@ -1056,22 +1110,28 @@
       "bytes": 92
     },
     {
-      "source": "src/xanim/xanim.cpp",
-      "matched": 4,
+      "source": "src/xanim/dobj.cpp",
+      "matched": 11,
       "nonmatching": 0,
-      "bytes": 37
+      "bytes": 235
+    },
+    {
+      "source": "src/xanim/xanim.cpp",
+      "matched": 5,
+      "nonmatching": 0,
+      "bytes": 50
     }
   ],
   "contributors": [
     {
       "name": "qzv",
-      "functions": 748,
-      "bytes": 52458
+      "functions": 749,
+      "bytes": 52466
     },
     {
       "name": "jz0",
-      "functions": 516,
-      "bytes": 23795
+      "functions": 651,
+      "bytes": 26639
     }
   ]
 }
