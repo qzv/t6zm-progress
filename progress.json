@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 777,
+    "matched": 782,
     "total": 25442
   },
   "bytes": {
-    "matched": 47788,
+    "matched": 48067,
     "total": 6530690
   },
   "not_counted": {
@@ -19,10 +19,10 @@
       "bytes": 32234
     }
   },
-  "percent": 0.732,
+  "percent": 0.736,
   "nonmatching": 45,
   "names": {
-    "high": 224,
+    "high": 229,
     "medium": 177,
     "low": 92,
     "unrated": 286,
@@ -205,9 +205,9 @@
     },
     {
       "source": "src/game/g_hudelem.cpp",
-      "matched": 8,
+      "matched": 10,
       "nonmatching": 0,
-      "bytes": 268
+      "bytes": 372
     },
     {
       "source": "src/game/g_items.cpp",
@@ -241,9 +241,9 @@
     },
     {
       "source": "src/game/g_targets.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 121
+      "bytes": 182
     },
     {
       "source": "src/game/pathnode.cpp",
@@ -349,9 +349,9 @@
     },
     {
       "source": "src/live/live_storage_pub.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 75
+      "bytes": 141
     },
     {
       "source": "src/live/live_storage_win.cpp",
@@ -367,9 +367,9 @@
     },
     {
       "source": "src/physics/destructible.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 6
+      "bytes": 54
     },
     {
       "source": "src/physics/phys_main.cpp",
@@ -704,8 +704,8 @@
     },
     {
       "name": "jz0",
-      "functions": 197,
-      "bytes": 4863
+      "functions": 202,
+      "bytes": 5142
     }
   ]
 }
