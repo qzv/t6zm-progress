@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 782,
+    "matched": 786,
     "total": 25442
   },
   "bytes": {
-    "matched": 48067,
+    "matched": 48333,
     "total": 6530690
   },
   "not_counted": {
@@ -19,10 +19,10 @@
       "bytes": 32234
     }
   },
-  "percent": 0.736,
+  "percent": 0.74,
   "nonmatching": 45,
   "names": {
-    "high": 229,
+    "high": 233,
     "medium": 177,
     "low": 92,
     "unrated": 286,
@@ -85,9 +85,9 @@
     },
     {
       "source": "src/bgame/bg_weapons_def.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 33
+      "bytes": 87
     },
     {
       "source": "src/bgame/bg_weapons_load_obj.cpp",
@@ -235,9 +235,9 @@
     },
     {
       "source": "src/game/g_scr_vehicle.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 17
+      "bytes": 76
     },
     {
       "source": "src/game/g_targets.cpp",
@@ -250,6 +250,12 @@
       "matched": 1,
       "nonmatching": 0,
       "bytes": 30
+    },
+    {
+      "source": "src/game/pathnode_load_obj.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 59
     },
     {
       "source": "src/game_mp/actor_mp.cpp",
@@ -271,9 +277,9 @@
     },
     {
       "source": "src/game_mp/g_scr_main_mp.cpp",
-      "matched": 18,
+      "matched": 19,
       "nonmatching": 0,
-      "bytes": 943
+      "bytes": 1037
     },
     {
       "source": "src/game_mp/g_spawnsystem_mp.cpp",
@@ -704,8 +710,8 @@
     },
     {
       "name": "jz0",
-      "functions": 202,
-      "bytes": 5142
+      "functions": 206,
+      "bytes": 5408
     }
   ]
 }
