@@ -3,23 +3,23 @@
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
     "matched": 814,
-    "total": 25442
+    "total": 22620
   },
   "bytes": {
     "matched": 50408,
-    "total": 6530690
+    "total": 5866711
   },
   "not_counted": {
     "third_party": {
-      "functions": 1918,
-      "bytes": 550254
+      "functions": 4740,
+      "bytes": 1214233
     },
     "generated": {
       "functions": 1439,
       "bytes": 32234
     }
   },
-  "percent": 0.772,
+  "percent": 0.859,
   "nonmatching": 45,
   "names": {
     "high": 251,
