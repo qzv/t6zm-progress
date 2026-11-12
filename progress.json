@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 825,
+    "matched": 826,
     "total": 22620
   },
   "bytes": {
-    "matched": 51148,
+    "matched": 51207,
     "total": 5866711
   },
   "not_counted": {
@@ -19,10 +19,10 @@
       "bytes": 32234
     }
   },
-  "percent": 0.872,
+  "percent": 0.873,
   "nonmatching": 45,
   "names": {
-    "high": 262,
+    "high": 263,
     "medium": 181,
     "low": 95,
     "unrated": 289,
@@ -97,9 +97,9 @@
     },
     {
       "source": "src/bgame/bg_vehicle_anim.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 58
+      "bytes": 117
     },
     {
       "source": "src/bgame/bg_weapons.cpp",
@@ -765,8 +765,8 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 599,
-      "bytes": 44438
+      "functions": 600,
+      "bytes": 44497
     },
     {
       "name": "jz0",
