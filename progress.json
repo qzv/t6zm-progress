@@ -2,17 +2,17 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 678,
+    "matched": 686,
     "total": 28799
   },
   "bytes": {
-    "matched": 43604,
+    "matched": 43700,
     "total": 7113178
   },
-  "percent": 0.613,
+  "percent": 0.614,
   "nonmatching": 45,
   "names": {
-    "high": 128,
+    "high": 136,
     "medium": 170,
     "low": 94,
     "unrated": 286,
@@ -42,6 +42,12 @@
       "matched": 4,
       "nonmatching": 0,
       "bytes": 102
+    },
+    {
+      "source": "src/bgame/bg_emblems.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 9
     },
     {
       "source": "src/bgame/bg_mantle.cpp",
@@ -116,6 +122,12 @@
       "bytes": 44
     },
     {
+      "source": "src/client/con_channels.cpp",
+      "matched": 2,
+      "nonmatching": 0,
+      "bytes": 18
+    },
+    {
       "source": "src/client_mp/cl_cgame_mp.cpp",
       "matched": 1,
       "nonmatching": 0,
@@ -182,6 +194,12 @@
       "bytes": 34
     },
     {
+      "source": "src/game/pathnode.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 30
+    },
+    {
       "source": "src/game_mp/actor_mp.cpp",
       "matched": 1,
       "nonmatching": 0,
@@ -243,9 +261,9 @@
     },
     {
       "source": "src/live/live_storage.cpp",
-      "matched": 12,
+      "matched": 13,
       "nonmatching": 0,
-      "bytes": 198
+      "bytes": 210
     },
     {
       "source": "src/live/live_storage_pub.cpp",
@@ -381,9 +399,9 @@
     },
     {
       "source": "src/ui/ui_keyboard.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 25
+      "bytes": 34
     },
     {
       "source": "src/ui/ui_playlists.cpp",
@@ -405,9 +423,9 @@
     },
     {
       "source": "src/universal/com_files.cpp",
-      "matched": 2,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 22
+      "bytes": 40
     },
     {
       "source": "src/universal/com_math.cpp",
@@ -593,13 +611,13 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 538,
-      "bytes": 41082
+      "functions": 545,
+      "bytes": 41148
     },
     {
       "name": "jz0",
-      "functions": 140,
-      "bytes": 2522
+      "functions": 141,
+      "bytes": 2552
     }
   ]
 }
