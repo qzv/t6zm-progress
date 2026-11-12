@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1130,
+    "matched": 1135,
     "total": 22620
   },
   "bytes": {
-    "matched": 68831,
+    "matched": 68994,
     "total": 5866711
   },
   "not_counted": {
@@ -19,11 +19,11 @@
       "bytes": 32234
     }
   },
-  "percent": 1.173,
+  "percent": 1.176,
   "nonmatching": 45,
   "names": {
     "high": 503,
-    "medium": 245,
+    "medium": 250,
     "low": 95,
     "unrated": 289,
     "placeholder": 0
@@ -103,9 +103,15 @@
     },
     {
       "source": "src/bgame/bg_weapons.cpp",
-      "matched": 2,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 54
+      "bytes": 112
+    },
+    {
+      "source": "src/bgame/bg_weapons_ammo.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 21
     },
     {
       "source": "src/bgame/bg_weapons_def.cpp",
@@ -226,6 +232,12 @@
       "matched": 1,
       "nonmatching": 0,
       "bytes": 100
+    },
+    {
+      "source": "src/clientscript/cscr_vm.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 34
     },
     {
       "source": "src/database/db_file_load.cpp",
@@ -565,9 +577,9 @@
     },
     {
       "source": "src/qcommon/common.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 59
+      "bytes": 109
     },
     {
       "source": "src/qcommon/dobj_management.cpp",
@@ -932,8 +944,8 @@
     },
     {
       "name": "jz0",
-      "functions": 407,
-      "bytes": 18587
+      "functions": 412,
+      "bytes": 18750
     }
   ]
 }
