@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1250,
+    "matched": 1264,
     "total": 22620
   },
   "bytes": {
-    "matched": 75553,
+    "matched": 76253,
     "total": 5866711
   },
   "not_counted": {
@@ -19,12 +19,12 @@
       "bytes": 32234
     }
   },
-  "percent": 1.288,
+  "percent": 1.3,
   "nonmatching": 45,
   "names": {
-    "high": 526,
-    "medium": 324,
-    "low": 113,
+    "high": 533,
+    "medium": 329,
+    "low": 115,
     "unrated": 289,
     "placeholder": 0
   },
@@ -91,9 +91,9 @@
     },
     {
       "source": "src/bgame/bg_pmove.cpp",
-      "matched": 4,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 161
+      "bytes": 288
     },
     {
       "source": "src/bgame/bg_unlockable_items.cpp",
@@ -109,9 +109,9 @@
     },
     {
       "source": "src/bgame/bg_weapons.cpp",
-      "matched": 4,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 112
+      "bytes": 231
     },
     {
       "source": "src/bgame/bg_weapons_ammo.cpp",
@@ -139,9 +139,9 @@
     },
     {
       "source": "src/cgame/cg_draw_names.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 108
+      "bytes": 124
     },
     {
       "source": "src/cgame/cg_scr_main.cpp",
@@ -306,10 +306,22 @@
       "bytes": 62
     },
     {
+      "source": "src/game/actor_orientation.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 88
+    },
+    {
       "source": "src/game/actor_senses.cpp",
       "matched": 2,
       "nonmatching": 0,
       "bytes": 114
+    },
+    {
+      "source": "src/game/actor_state.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 39
     },
     {
       "source": "src/game/actor_team_move.cpp",
@@ -427,9 +439,9 @@
     },
     {
       "source": "src/game_mp/g_scr_main_mp.cpp",
-      "matched": 96,
+      "matched": 98,
       "nonmatching": 0,
-      "bytes": 6622
+      "bytes": 6787
     },
     {
       "source": "src/game_mp/g_spawnsystem_mp.cpp",
@@ -439,9 +451,9 @@
     },
     {
       "source": "src/game_mp/g_utils_mp.cpp",
-      "matched": 8,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 190
+      "bytes": 273
     },
     {
       "source": "src/gfx_d3d/r_cinematic.cpp",
@@ -583,9 +595,9 @@
     },
     {
       "source": "src/live/live_win.cpp",
-      "matched": 6,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 172
+      "bytes": 200
     },
     {
       "source": "src/physics/destructible.cpp",
@@ -661,9 +673,9 @@
     },
     {
       "source": "src/qcommon/common.cpp",
-      "matched": 9,
+      "matched": 10,
       "nonmatching": 0,
-      "bytes": 335
+      "bytes": 354
     },
     {
       "source": "src/qcommon/dobj_management.cpp",
@@ -811,9 +823,9 @@
     },
     {
       "source": "src/ui/ui_shared.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 223
+      "bytes": 239
     },
     {
       "source": "src/ui/ui_shared_obj.cpp",
@@ -1058,8 +1070,8 @@
     },
     {
       "name": "jz0",
-      "functions": 502,
-      "bytes": 23095
+      "functions": 516,
+      "bytes": 23795
     }
   ]
 }
