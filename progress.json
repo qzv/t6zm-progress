@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1144,
+    "matched": 1149,
     "total": 22620
   },
   "bytes": {
-    "matched": 69463,
+    "matched": 69601,
     "total": 5866711
   },
   "not_counted": {
@@ -19,11 +19,11 @@
       "bytes": 32234
     }
   },
-  "percent": 1.184,
+  "percent": 1.186,
   "nonmatching": 45,
   "names": {
     "high": 503,
-    "medium": 258,
+    "medium": 263,
     "low": 96,
     "unrated": 289,
     "placeholder": 0
@@ -672,10 +672,16 @@
       "bytes": 53
     },
     {
-      "source": "src/stringed/stringed_hooks.cpp",
-      "matched": 3,
+      "source": "src/sound/snd_debug.cpp",
+      "matched": 1,
       "nonmatching": 0,
-      "bytes": 89
+      "bytes": 12
+    },
+    {
+      "source": "src/stringed/stringed_hooks.cpp",
+      "matched": 4,
+      "nonmatching": 0,
+      "bytes": 94
     },
     {
       "source": "src/ui/demo_contentserver.cpp",
@@ -703,9 +709,9 @@
     },
     {
       "source": "src/ui/ui_playlists.cpp",
-      "matched": 8,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 162
+      "bytes": 246
     },
     {
       "source": "src/ui/ui_shared.cpp",
@@ -907,9 +913,9 @@
     },
     {
       "source": "src/win32/win_net.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 250
+      "bytes": 263
     },
     {
       "source": "src/win32/win_shared.cpp",
@@ -925,9 +931,9 @@
     },
     {
       "source": "src/win32/win_syscon.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 96
+      "bytes": 120
     },
     {
       "source": "src/win32/win_voice.cpp",
@@ -945,13 +951,13 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 726,
-      "bytes": 50496
+      "functions": 727,
+      "bytes": 50580
     },
     {
       "name": "jz0",
-      "functions": 418,
-      "bytes": 18967
+      "functions": 422,
+      "bytes": 19021
     }
   ]
 }
