@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1094,
+    "matched": 1125,
     "total": 22620
   },
   "bytes": {
-    "matched": 66380,
+    "matched": 68601,
     "total": 5866711
   },
   "not_counted": {
@@ -19,10 +19,10 @@
       "bytes": 32234
     }
   },
-  "percent": 1.131,
+  "percent": 1.169,
   "nonmatching": 45,
   "names": {
-    "high": 472,
+    "high": 503,
     "medium": 240,
     "low": 95,
     "unrated": 289,
@@ -61,9 +61,9 @@
     },
     {
       "source": "src/bgame/bg_animation.cpp",
-      "matched": 6,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 169
+      "bytes": 203
     },
     {
       "source": "src/bgame/bg_emblems.cpp",
@@ -127,9 +127,9 @@
     },
     {
       "source": "src/cgame/cg_scr_main.cpp",
-      "matched": 93,
+      "matched": 96,
       "nonmatching": 0,
-      "bytes": 3821
+      "bytes": 4073
     },
     {
       "source": "src/cgame/cg_visionsets.cpp",
@@ -253,9 +253,9 @@
     },
     {
       "source": "src/demo/demo_ui.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 147
+      "bytes": 163
     },
     {
       "source": "src/demo/demo_version.cpp",
@@ -319,9 +319,9 @@
     },
     {
       "source": "src/game/g_targets.cpp",
-      "matched": 6,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 328
+      "bytes": 385
     },
     {
       "source": "src/game/g_vehicle_path.cpp",
@@ -361,21 +361,27 @@
     },
     {
       "source": "src/game_mp/g_scr_main_mp.cpp",
-      "matched": 75,
+      "matched": 86,
       "nonmatching": 0,
-      "bytes": 4960
+      "bytes": 6119
     },
     {
       "source": "src/game_mp/g_spawnsystem_mp.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 94
+      "bytes": 142
     },
     {
       "source": "src/game_mp/g_utils_mp.cpp",
       "matched": 6,
       "nonmatching": 0,
       "bytes": 162
+    },
+    {
+      "source": "src/gfx_d3d/r_cinematic.cpp",
+      "matched": 2,
+      "nonmatching": 0,
+      "bytes": 76
     },
     {
       "source": "src/gfx_d3d/r_dpvs.cpp",
@@ -385,9 +391,9 @@
     },
     {
       "source": "src/gfx_d3d/r_extracam.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 35
+      "bytes": 62
     },
     {
       "source": "src/gfx_d3d/r_init.cpp",
@@ -406,6 +412,12 @@
       "matched": 1,
       "nonmatching": 0,
       "bytes": 10
+    },
+    {
+      "source": "src/gfx_d3d/r_ui3d.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 93
     },
     {
       "source": "src/gfx_d3d/r_workercmds.cpp",
@@ -475,15 +487,15 @@
     },
     {
       "source": "src/live/live_storage_win.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 161
+      "bytes": 216
     },
     {
       "source": "src/live/live_win.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 105
+      "bytes": 161
     },
     {
       "source": "src/physics/destructible.cpp",
@@ -499,9 +511,9 @@
     },
     {
       "source": "src/physics/phys_main.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 34
+      "bytes": 85
     },
     {
       "source": "src/qcommon/cm_load.cpp",
@@ -601,9 +613,9 @@
     },
     {
       "source": "src/qcommon/threads.cpp",
-      "matched": 58,
+      "matched": 61,
       "nonmatching": 0,
-      "bytes": 1248
+      "bytes": 1404
     },
     {
       "source": "src/qcommon/tl_support.cpp",
@@ -882,6 +894,12 @@
       "bytes": 250
     },
     {
+      "source": "src/win32/win_shared.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 43
+    },
+    {
       "source": "src/win32/win_splash.cpp",
       "matched": 2,
       "nonmatching": 0,
@@ -889,15 +907,15 @@
     },
     {
       "source": "src/win32/win_syscon.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 42
+      "bytes": 96
     },
     {
       "source": "src/win32/win_voice.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 48
+      "bytes": 92
     },
     {
       "source": "src/xanim/xanim.cpp",
@@ -914,8 +932,8 @@
     },
     {
       "name": "jz0",
-      "functions": 376,
-      "bytes": 16366
+      "functions": 407,
+      "bytes": 18587
     }
   ]
 }
