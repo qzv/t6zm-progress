@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1205,
+    "matched": 1216,
     "total": 22620
   },
   "bytes": {
-    "matched": 73118,
+    "matched": 73679,
     "total": 5866711
   },
   "not_counted": {
@@ -19,11 +19,11 @@
       "bytes": 32234
     }
   },
-  "percent": 1.246,
+  "percent": 1.256,
   "nonmatching": 45,
   "names": {
     "high": 519,
-    "medium": 294,
+    "medium": 305,
     "low": 105,
     "unrated": 289,
     "placeholder": 0
@@ -120,6 +120,12 @@
       "bytes": 21
     },
     {
+      "source": "src/bgame/bg_weapons_attachment.cpp",
+      "matched": 4,
+      "nonmatching": 0,
+      "bytes": 323
+    },
+    {
       "source": "src/bgame/bg_weapons_def.cpp",
       "matched": 4,
       "nonmatching": 0,
@@ -169,9 +175,9 @@
     },
     {
       "source": "src/client/cl_console.cpp",
-      "matched": 8,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 193
+      "bytes": 206
     },
     {
       "source": "src/client/cl_gamepad.cpp",
@@ -427,15 +433,15 @@
     },
     {
       "source": "src/game_mp/g_utils_mp.cpp",
-      "matched": 6,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 162
+      "bytes": 172
     },
     {
       "source": "src/gfx_d3d/r_cinematic.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 76
+      "bytes": 169
     },
     {
       "source": "src/gfx_d3d/r_dpvs.cpp",
@@ -649,9 +655,9 @@
     },
     {
       "source": "src/qcommon/common.cpp",
-      "matched": 5,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 194
+      "bytes": 216
     },
     {
       "source": "src/qcommon/dobj_management.cpp",
@@ -727,9 +733,9 @@
     },
     {
       "source": "src/server_mp/sv_init_mp.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 203
+      "bytes": 216
     },
     {
       "source": "src/server_mp/sv_main_mp.cpp",
@@ -811,9 +817,9 @@
     },
     {
       "source": "src/ui_mp/ui_main_mp.cpp",
-      "matched": 6,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 106
+      "bytes": 193
     },
     {
       "source": "src/universal/com_files.cpp",
@@ -1035,13 +1041,13 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 733,
-      "bytes": 51153
+      "functions": 735,
+      "bytes": 51333
     },
     {
       "name": "jz0",
-      "functions": 472,
-      "bytes": 21965
+      "functions": 481,
+      "bytes": 22346
     }
   ]
 }
