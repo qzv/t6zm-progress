@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 717,
+    "matched": 722,
     "total": 25442
   },
   "bytes": {
-    "matched": 44684,
+    "matched": 44817,
     "total": 6530690
   },
   "not_counted": {
@@ -19,10 +19,10 @@
       "bytes": 32234
     }
   },
-  "percent": 0.684,
+  "percent": 0.686,
   "nonmatching": 45,
   "names": {
-    "high": 165,
+    "high": 170,
     "medium": 173,
     "low": 95,
     "unrated": 286,
@@ -193,9 +193,9 @@
     },
     {
       "source": "src/game/g_missile.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 9
+      "bytes": 30
     },
     {
       "source": "src/game/g_scr_mover.cpp",
@@ -205,9 +205,9 @@
     },
     {
       "source": "src/game/g_targets.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 34
+      "bytes": 67
     },
     {
       "source": "src/game/pathnode.cpp",
@@ -238,6 +238,12 @@
       "matched": 3,
       "nonmatching": 0,
       "bytes": 94
+    },
+    {
+      "source": "src/game_mp/g_utils_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 21
     },
     {
       "source": "src/gfx_d3d/r_init.cpp",
@@ -355,9 +361,9 @@
     },
     {
       "source": "src/qcommon/radiant_remote.cpp",
-      "matched": 5,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 121
+      "bytes": 179
     },
     {
       "source": "src/qcommon/threads.cpp",
@@ -638,8 +644,8 @@
     },
     {
       "name": "jz0",
-      "functions": 151,
-      "bytes": 2972
+      "functions": 156,
+      "bytes": 3105
     }
   ]
 }
