@@ -2,19 +2,19 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 485,
+    "matched": 491,
     "total": 28799
   },
   "bytes": {
-    "matched": 39487,
+    "matched": 39523,
     "total": 7113178
   },
-  "percent": 0.555,
+  "percent": 0.556,
   "nonmatching": 45,
   "names": {
-    "high": 23,
+    "high": 27,
     "medium": 143,
-    "low": 33,
+    "low": 35,
     "unrated": 286,
     "placeholder": 2
   },
@@ -105,9 +105,9 @@
     },
     {
       "source": "src/server/sv_game.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 5
+      "bytes": 11
     },
     {
       "source": "src/server_mp/sv_main_pc_mp.cpp",
@@ -122,6 +122,12 @@
       "bytes": 12
     },
     {
+      "source": "src/ui/ui_playlists.cpp",
+      "matched": 2,
+      "nonmatching": 0,
+      "bytes": 12
+    },
+    {
       "source": "src/ui/ui_utils.cpp",
       "matched": 1,
       "nonmatching": 0,
@@ -129,9 +135,9 @@
     },
     {
       "source": "src/ui_mp/ui_main_mp.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 6
+      "bytes": 12
     },
     {
       "source": "src/universal/com_math.cpp",
@@ -285,9 +291,15 @@
     },
     {
       "source": "src/win32/win_net.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 244
+      "bytes": 250
+    },
+    {
+      "source": "src/xanim/xanim.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 6
     }
   ],
   "contributors": [
@@ -298,8 +310,8 @@
     },
     {
       "name": "jz0",
-      "functions": 3,
-      "bytes": 18
+      "functions": 9,
+      "bytes": 54
     }
   ]
 }
