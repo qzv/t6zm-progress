@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1173,
+    "matched": 1205,
     "total": 22620
   },
   "bytes": {
-    "matched": 71384,
+    "matched": 73118,
     "total": 5866711
   },
   "not_counted": {
@@ -19,12 +19,12 @@
       "bytes": 32234
     }
   },
-  "percent": 1.217,
+  "percent": 1.246,
   "nonmatching": 45,
   "names": {
-    "high": 503,
-    "medium": 285,
-    "low": 98,
+    "high": 519,
+    "medium": 294,
+    "low": 105,
     "unrated": 289,
     "placeholder": 0
   },
@@ -127,9 +127,9 @@
     },
     {
       "source": "src/bgame/bg_weapons_load_obj.cpp",
-      "matched": 5,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 145
+      "bytes": 205
     },
     {
       "source": "src/cgame/cg_draw_names.cpp",
@@ -139,9 +139,9 @@
     },
     {
       "source": "src/cgame/cg_scr_main.cpp",
-      "matched": 96,
+      "matched": 101,
       "nonmatching": 0,
-      "bytes": 4073
+      "bytes": 4244
     },
     {
       "source": "src/cgame/cg_visionsets.cpp",
@@ -151,9 +151,9 @@
     },
     {
       "source": "src/cgame/cg_weapons.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 97
+      "bytes": 136
     },
     {
       "source": "src/cgame_mp/cg_players_mp.cpp",
@@ -169,9 +169,9 @@
     },
     {
       "source": "src/client/cl_console.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 157
+      "bytes": 193
     },
     {
       "source": "src/client/cl_gamepad.cpp",
@@ -193,9 +193,9 @@
     },
     {
       "source": "src/client_mp/cl_cgame_mp.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 225
+      "bytes": 249
     },
     {
       "source": "src/client_mp/cl_input_mp.cpp",
@@ -205,9 +205,9 @@
     },
     {
       "source": "src/client_mp/cl_main_mp.cpp",
-      "matched": 15,
+      "matched": 19,
       "nonmatching": 0,
-      "bytes": 638
+      "bytes": 905
     },
     {
       "source": "src/client_mp/cl_main_pc.cpp",
@@ -300,6 +300,18 @@
       "bytes": 62
     },
     {
+      "source": "src/game/actor_senses.cpp",
+      "matched": 2,
+      "nonmatching": 0,
+      "bytes": 114
+    },
+    {
+      "source": "src/game/actor_team_move.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 19
+    },
+    {
       "source": "src/game/actor_threat.cpp",
       "matched": 1,
       "nonmatching": 0,
@@ -384,6 +396,12 @@
       "bytes": 399
     },
     {
+      "source": "src/game_mp/g_cmds_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 56
+    },
+    {
       "source": "src/game_mp/g_combat_mp.cpp",
       "matched": 1,
       "nonmatching": 0,
@@ -391,15 +409,15 @@
     },
     {
       "source": "src/game_mp/g_main_mp.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 188
+      "bytes": 307
     },
     {
       "source": "src/game_mp/g_scr_main_mp.cpp",
-      "matched": 94,
+      "matched": 95,
       "nonmatching": 0,
-      "bytes": 6543
+      "bytes": 6597
     },
     {
       "source": "src/game_mp/g_spawnsystem_mp.cpp",
@@ -432,6 +450,12 @@
       "bytes": 62
     },
     {
+      "source": "src/gfx_d3d/r_image.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 60
+    },
+    {
       "source": "src/gfx_d3d/r_init.cpp",
       "matched": 5,
       "nonmatching": 0,
@@ -462,22 +486,40 @@
       "bytes": 126
     },
     {
+      "source": "src/gfx_d3d/rb_shade.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 39
+    },
+    {
       "source": "src/live/live_counter.cpp",
       "matched": 2,
       "nonmatching": 0,
       "bytes": 148
     },
     {
-      "source": "src/live/live_fileshare.cpp",
-      "matched": 4,
+      "source": "src/live/live_elite.cpp",
+      "matched": 1,
       "nonmatching": 0,
-      "bytes": 172
+      "bytes": 125
+    },
+    {
+      "source": "src/live/live_fileshare.cpp",
+      "matched": 5,
+      "nonmatching": 0,
+      "bytes": 238
     },
     {
       "source": "src/live/live_fileshare_cache.cpp",
       "matched": 1,
       "nonmatching": 0,
       "bytes": 52
+    },
+    {
+      "source": "src/live/live_fileshare_search.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 72
     },
     {
       "source": "src/live/live_friends.cpp",
@@ -493,9 +535,9 @@
     },
     {
       "source": "src/live/live_sessions_win.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 93
+      "bytes": 122
     },
     {
       "source": "src/live/live_stats.cpp",
@@ -505,9 +547,9 @@
     },
     {
       "source": "src/live/live_steam.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 34
+      "bytes": 54
     },
     {
       "source": "src/live/live_storage.cpp",
@@ -540,6 +582,12 @@
       "bytes": 138
     },
     {
+      "source": "src/physics/phys_collision.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 47
+    },
+    {
       "source": "src/physics/phys_effects.cpp",
       "matched": 1,
       "nonmatching": 0,
@@ -565,9 +613,9 @@
     },
     {
       "source": "src/qcommon/cmd.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 110
+      "bytes": 149
     },
     {
       "source": "src/qcommon/com_buildinfo.cpp",
@@ -667,9 +715,9 @@
     },
     {
       "source": "src/server/sv_game.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 242
+      "bytes": 259
     },
     {
       "source": "src/server_mp/sv_ccmds_mp.cpp",
@@ -732,6 +780,12 @@
       "bytes": 58
     },
     {
+      "source": "src/ui/ui_main.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 99
+    },
+    {
       "source": "src/ui/ui_playlists.cpp",
       "matched": 9,
       "nonmatching": 0,
@@ -739,9 +793,9 @@
     },
     {
       "source": "src/ui/ui_shared.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 54
+      "bytes": 131
     },
     {
       "source": "src/ui/ui_shared_obj.cpp",
@@ -912,6 +966,12 @@
       "bytes": 89
     },
     {
+      "source": "src/win32/vcs_hooks.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 85
+    },
+    {
       "source": "src/win32/win_common.cpp",
       "matched": 10,
       "nonmatching": 0,
@@ -980,8 +1040,8 @@
     },
     {
       "name": "jz0",
-      "functions": 440,
-      "bytes": 20231
+      "functions": 472,
+      "bytes": 21965
     }
   ]
 }
