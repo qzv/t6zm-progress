@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1082,
+    "matched": 1086,
     "total": 22620
   },
   "bytes": {
-    "matched": 65489,
+    "matched": 65785,
     "total": 5866711
   },
   "not_counted": {
@@ -19,11 +19,11 @@
       "bytes": 32234
     }
   },
-  "percent": 1.116,
+  "percent": 1.121,
   "nonmatching": 45,
   "names": {
-    "high": 469,
-    "medium": 231,
+    "high": 471,
+    "medium": 233,
     "low": 95,
     "unrated": 289,
     "placeholder": 0
@@ -127,9 +127,9 @@
     },
     {
       "source": "src/cgame/cg_scr_main.cpp",
-      "matched": 91,
+      "matched": 92,
       "nonmatching": 0,
-      "bytes": 3694
+      "bytes": 3764
     },
     {
       "source": "src/cgame/cg_visionsets.cpp",
@@ -253,9 +253,9 @@
     },
     {
       "source": "src/demo/demo_ui.cpp",
-      "matched": 2,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 80
+      "bytes": 147
     },
     {
       "source": "src/demo/demo_version.cpp",
@@ -484,6 +484,12 @@
       "matched": 3,
       "nonmatching": 0,
       "bytes": 138
+    },
+    {
+      "source": "src/physics/phys_effects.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 159
     },
     {
       "source": "src/physics/phys_main.cpp",
@@ -897,13 +903,13 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 709,
-      "bytes": 49626
+      "functions": 711,
+      "bytes": 49693
     },
     {
       "name": "jz0",
-      "functions": 373,
-      "bytes": 15863
+      "functions": 375,
+      "bytes": 16092
     }
   ]
 }
