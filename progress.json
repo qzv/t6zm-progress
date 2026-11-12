@@ -1,0 +1,270 @@
+{
+  "name": "t6zm",
+  "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
+  "functions": {
+    "matched": 476,
+    "total": 28799
+  },
+  "bytes": {
+    "matched": 39147,
+    "total": 7113178
+  },
+  "percent": 0.55,
+  "nonmatching": 45,
+  "names": {
+    "high": 19,
+    "medium": 140,
+    "low": 31,
+    "unrated": 286,
+    "placeholder": 2
+  },
+  "modules": [
+    {
+      "source": "src/EffectsCore/fx_system.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 6
+    },
+    {
+      "source": "src/bgame/bg_misc.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 3
+    },
+    {
+      "source": "src/client_mp/cl_input_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 6
+    },
+    {
+      "source": "src/game_mp/g_main_mp.cpp",
+      "matched": 2,
+      "nonmatching": 0,
+      "bytes": 12
+    },
+    {
+      "source": "src/gfx_d3d/r_workercmds.cpp",
+      "matched": 3,
+      "nonmatching": 0,
+      "bytes": 126
+    },
+    {
+      "source": "src/qcommon/common.cpp",
+      "matched": 2,
+      "nonmatching": 0,
+      "bytes": 16
+    },
+    {
+      "source": "src/qcommon/dvar_cmds.cpp",
+      "matched": 4,
+      "nonmatching": 0,
+      "bytes": 219
+    },
+    {
+      "source": "src/qcommon/files.cpp",
+      "matched": 3,
+      "nonmatching": 0,
+      "bytes": 285
+    },
+    {
+      "source": "src/qcommon/msg_mp.cpp",
+      "matched": 9,
+      "nonmatching": 0,
+      "bytes": 616
+    },
+    {
+      "source": "src/qcommon/net_chan_mp.cpp",
+      "matched": 4,
+      "nonmatching": 0,
+      "bytes": 218
+    },
+    {
+      "source": "src/qcommon/threads.cpp",
+      "matched": 58,
+      "nonmatching": 0,
+      "bytes": 1248
+    },
+    {
+      "source": "src/qcommon/tl_support.cpp",
+      "matched": 2,
+      "nonmatching": 0,
+      "bytes": 69
+    },
+    {
+      "source": "src/server/sv_game.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 5
+    },
+    {
+      "source": "src/ui/ui_utils.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 5
+    },
+    {
+      "source": "src/ui_mp/ui_main_mp.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 6
+    },
+    {
+      "source": "src/universal/com_math.cpp",
+      "matched": 81,
+      "nonmatching": 14,
+      "bytes": 10735
+    },
+    {
+      "source": "src/universal/com_math_anglevectors.cpp",
+      "matched": 4,
+      "nonmatching": 3,
+      "bytes": 1009
+    },
+    {
+      "source": "src/universal/com_memory.cpp",
+      "matched": 31,
+      "nonmatching": 2,
+      "bytes": 2044
+    },
+    {
+      "source": "src/universal/com_pack.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 58
+    },
+    {
+      "source": "src/universal/com_shared.cpp",
+      "matched": 7,
+      "nonmatching": 0,
+      "bytes": 1463
+    },
+    {
+      "source": "src/universal/com_stringtable.cpp",
+      "matched": 15,
+      "nonmatching": 2,
+      "bytes": 2245
+    },
+    {
+      "source": "src/universal/com_stringtable_obj.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 67
+    },
+    {
+      "source": "src/universal/com_tasks.cpp",
+      "matched": 17,
+      "nonmatching": 2,
+      "bytes": 941
+    },
+    {
+      "source": "src/universal/com_workercmds.cpp",
+      "matched": 13,
+      "nonmatching": 0,
+      "bytes": 417
+    },
+    {
+      "source": "src/universal/curve.cpp",
+      "matched": 9,
+      "nonmatching": 3,
+      "bytes": 1152
+    },
+    {
+      "source": "src/universal/curvemanager.cpp",
+      "matched": 8,
+      "nonmatching": 0,
+      "bytes": 294
+    },
+    {
+      "source": "src/universal/dvar.cpp",
+      "matched": 63,
+      "nonmatching": 2,
+      "bytes": 3467
+    },
+    {
+      "source": "src/universal/mem_default.cpp",
+      "matched": 3,
+      "nonmatching": 1,
+      "bytes": 337
+    },
+    {
+      "source": "src/universal/mem_firstfit.cpp",
+      "matched": 3,
+      "nonmatching": 2,
+      "bytes": 167
+    },
+    {
+      "source": "src/universal/mem_fixed.cpp",
+      "matched": 3,
+      "nonmatching": 2,
+      "bytes": 187
+    },
+    {
+      "source": "src/universal/mem_largelocal.cpp",
+      "matched": 3,
+      "nonmatching": 1,
+      "bytes": 96
+    },
+    {
+      "source": "src/universal/mem_userhunk.cpp",
+      "matched": 14,
+      "nonmatching": 2,
+      "bytes": 494
+    },
+    {
+      "source": "src/universal/memfile.cpp",
+      "matched": 11,
+      "nonmatching": 0,
+      "bytes": 1632
+    },
+    {
+      "source": "src/universal/physicalmemory.cpp",
+      "matched": 5,
+      "nonmatching": 2,
+      "bytes": 247
+    },
+    {
+      "source": "src/universal/q_parse.cpp",
+      "matched": 22,
+      "nonmatching": 2,
+      "bytes": 2911
+    },
+    {
+      "source": "src/universal/q_shared.cpp",
+      "matched": 52,
+      "nonmatching": 5,
+      "bytes": 5081
+    },
+    {
+      "source": "src/universal/reliablemsg.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 95
+    },
+    {
+      "source": "src/universal/surfaceflags.cpp",
+      "matched": 7,
+      "nonmatching": 0,
+      "bytes": 690
+    },
+    {
+      "source": "src/universal/timing.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 89
+    },
+    {
+      "source": "src/win32/win_common.cpp",
+      "matched": 10,
+      "nonmatching": 0,
+      "bytes": 389
+    }
+  ],
+  "contributors": [
+    {
+      "name": "qzv",
+      "functions": 476,
+      "bytes": 39147
+    }
+  ]
+}
