@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1241,
+    "matched": 1245,
     "total": 22620
   },
   "bytes": {
-    "matched": 75118,
+    "matched": 75412,
     "total": 5866711
   },
   "not_counted": {
@@ -19,11 +19,11 @@
       "bytes": 32234
     }
   },
-  "percent": 1.28,
+  "percent": 1.285,
   "nonmatching": 45,
   "names": {
     "high": 525,
-    "medium": 320,
+    "medium": 324,
     "low": 109,
     "unrated": 289,
     "placeholder": 0
@@ -655,9 +655,9 @@
     },
     {
       "source": "src/qcommon/common.cpp",
-      "matched": 7,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 216
+      "bytes": 335
     },
     {
       "source": "src/qcommon/dobj_management.cpp",
@@ -700,6 +700,12 @@
       "matched": 1,
       "nonmatching": 0,
       "bytes": 28
+    },
+    {
+      "source": "src/qcommon/stream.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 107
     },
     {
       "source": "src/qcommon/threads.cpp",
@@ -799,9 +805,9 @@
     },
     {
       "source": "src/ui/ui_shared.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 155
+      "bytes": 223
     },
     {
       "source": "src/ui/ui_shared_obj.cpp",
@@ -1041,8 +1047,8 @@
   "contributors": [
     {
       "name": "qzv",
-      "functions": 744,
-      "bytes": 52164
+      "functions": 748,
+      "bytes": 52458
     },
     {
       "name": "jz0",
