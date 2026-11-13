@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1447,
+    "matched": 1558,
     "total": 22620
   },
   "bytes": {
-    "matched": 80008,
+    "matched": 83257,
     "total": 5866711
   },
   "not_counted": {
@@ -19,12 +19,12 @@
       "bytes": 32234
     }
   },
-  "percent": 1.364,
+  "percent": 1.419,
   "nonmatching": 45,
   "names": {
-    "high": 557,
-    "medium": 347,
-    "low": 256,
+    "high": 558,
+    "medium": 349,
+    "low": 364,
     "unrated": 289,
     "placeholder": 0
   },
@@ -37,9 +37,9 @@
     },
     {
       "source": "src/EffectsCore/fx_load_obj.cpp",
-      "matched": 31,
+      "matched": 35,
       "nonmatching": 0,
-      "bytes": 762
+      "bytes": 891
     },
     {
       "source": "src/EffectsCore/fx_marks.cpp",
@@ -49,9 +49,9 @@
     },
     {
       "source": "src/EffectsCore/fx_system.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 143
+      "bytes": 167
     },
     {
       "source": "src/aim_assist/aim_assist.cpp",
@@ -79,9 +79,9 @@
     },
     {
       "source": "src/bgame/bg_misc.cpp",
-      "matched": 9,
+      "matched": 10,
       "nonmatching": 0,
-      "bytes": 113
+      "bytes": 178
     },
     {
       "source": "src/bgame/bg_perks.cpp",
@@ -97,9 +97,9 @@
     },
     {
       "source": "src/bgame/bg_unlockable_items.cpp",
-      "matched": 20,
+      "matched": 26,
       "nonmatching": 0,
-      "bytes": 814
+      "bytes": 1048
     },
     {
       "source": "src/bgame/bg_vehicle_anim.cpp",
@@ -109,9 +109,9 @@
     },
     {
       "source": "src/bgame/bg_weapons.cpp",
-      "matched": 8,
+      "matched": 15,
       "nonmatching": 0,
-      "bytes": 323
+      "bytes": 478
     },
     {
       "source": "src/bgame/bg_weapons_ammo.cpp",
@@ -121,15 +121,15 @@
     },
     {
       "source": "src/bgame/bg_weapons_attachment.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 323
+      "bytes": 359
     },
     {
       "source": "src/bgame/bg_weapons_def.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 200
+      "bytes": 216
     },
     {
       "source": "src/bgame/bg_weapons_load_obj.cpp",
@@ -145,9 +145,9 @@
     },
     {
       "source": "src/cgame/cg_scr_main.cpp",
-      "matched": 111,
+      "matched": 124,
       "nonmatching": 0,
-      "bytes": 4957
+      "bytes": 5152
     },
     {
       "source": "src/cgame/cg_visionsets.cpp",
@@ -157,9 +157,9 @@
     },
     {
       "source": "src/cgame/cg_weapons.cpp",
-      "matched": 4,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 151
+      "bytes": 289
     },
     {
       "source": "src/cgame_mp/cg_draw_mp.cpp",
@@ -181,9 +181,9 @@
     },
     {
       "source": "src/cgame_mp/cg_scoreboard_mp.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 291
+      "bytes": 315
     },
     {
       "source": "src/client/cl_console.cpp",
@@ -193,15 +193,15 @@
     },
     {
       "source": "src/client/cl_gamepad.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 123
+      "bytes": 169
     },
     {
       "source": "src/client/cl_keys.cpp",
-      "matched": 4,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 85
+      "bytes": 139
     },
     {
       "source": "src/client/con_channels.cpp",
@@ -223,9 +223,9 @@
     },
     {
       "source": "src/client_mp/cl_main_mp.cpp",
-      "matched": 27,
+      "matched": 36,
       "nonmatching": 0,
-      "bytes": 961
+      "bytes": 1090
     },
     {
       "source": "src/client_mp/cl_main_pc.cpp",
@@ -247,15 +247,15 @@
     },
     {
       "source": "src/client_mp/sv_client_mp.cpp",
-      "matched": 5,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 187
+      "bytes": 224
     },
     {
       "source": "src/clientscript/cscr_animtree.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 44
+      "bytes": 73
     },
     {
       "source": "src/clientscript/cscr_memorytree.cpp",
@@ -265,9 +265,9 @@
     },
     {
       "source": "src/clientscript/cscr_variable.cpp",
-      "matched": 2,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 10
+      "bytes": 86
     },
     {
       "source": "src/clientscript/cscr_vm.cpp",
@@ -277,15 +277,15 @@
     },
     {
       "source": "src/clientscript/scr_const.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 20
+      "bytes": 92
     },
     {
       "source": "src/database/db_file_load.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 63
+      "bytes": 86
     },
     {
       "source": "src/database/db_load.cpp",
@@ -295,9 +295,9 @@
     },
     {
       "source": "src/database/db_registry.cpp",
-      "matched": 4,
+      "matched": 9,
       "nonmatching": 0,
-      "bytes": 218
+      "bytes": 359
     },
     {
       "source": "src/ddl/ddl_api.cpp",
@@ -312,10 +312,16 @@
       "bytes": 64
     },
     {
-      "source": "src/demo/demo_ui.cpp",
-      "matched": 11,
+      "source": "src/ddl/ddl_lookup.cpp",
+      "matched": 1,
       "nonmatching": 0,
-      "bytes": 360
+      "bytes": 78
+    },
+    {
+      "source": "src/demo/demo_ui.cpp",
+      "matched": 12,
+      "nonmatching": 0,
+      "bytes": 488
     },
     {
       "source": "src/demo/demo_version.cpp",
@@ -373,9 +379,9 @@
     },
     {
       "source": "src/game/g_hudelem.cpp",
-      "matched": 10,
+      "matched": 13,
       "nonmatching": 0,
-      "bytes": 372
+      "bytes": 477
     },
     {
       "source": "src/game/g_items.cpp",
@@ -385,9 +391,9 @@
     },
     {
       "source": "src/game/g_load_utils.cpp",
-      "matched": 2,
+      "matched": 3,
       "nonmatching": 0,
-      "bytes": 93
+      "bytes": 145
     },
     {
       "source": "src/game/g_missile.cpp",
@@ -421,15 +427,15 @@
     },
     {
       "source": "src/game/pathnode.cpp",
-      "matched": 8,
+      "matched": 12,
       "nonmatching": 0,
-      "bytes": 245
+      "bytes": 373
     },
     {
       "source": "src/game/pathnode_load_obj.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 59
+      "bytes": 81
     },
     {
       "source": "src/game/turret.cpp",
@@ -457,39 +463,39 @@
     },
     {
       "source": "src/game_mp/g_combat_mp.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 83
+      "bytes": 150
     },
     {
       "source": "src/game_mp/g_main_mp.cpp",
-      "matched": 8,
+      "matched": 10,
       "nonmatching": 0,
-      "bytes": 307
+      "bytes": 355
     },
     {
       "source": "src/game_mp/g_scr_main_mp.cpp",
-      "matched": 106,
+      "matched": 123,
       "nonmatching": 0,
-      "bytes": 6940
+      "bytes": 7295
     },
     {
       "source": "src/game_mp/g_spawnsystem_mp.cpp",
-      "matched": 4,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 142
+      "bytes": 207
     },
     {
       "source": "src/game_mp/g_trigger_mp.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 24
+      "bytes": 53
     },
     {
       "source": "src/game_mp/g_utils_mp.cpp",
-      "matched": 15,
+      "matched": 18,
       "nonmatching": 0,
-      "bytes": 366
+      "bytes": 498
     },
     {
       "source": "src/gfx_d3d/r_cinematic.cpp",
@@ -541,9 +547,9 @@
     },
     {
       "source": "src/gfx_d3d/r_workercmds.cpp",
-      "matched": 3,
+      "matched": 5,
       "nonmatching": 0,
-      "bytes": 126
+      "bytes": 276
     },
     {
       "source": "src/gfx_d3d/rb_shade.cpp",
@@ -553,9 +559,9 @@
     },
     {
       "source": "src/live/live_counter.cpp",
-      "matched": 3,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 180
+      "bytes": 234
     },
     {
       "source": "src/live/live_elite.cpp",
@@ -565,9 +571,9 @@
     },
     {
       "source": "src/live/live_fileshare.cpp",
-      "matched": 6,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 302
+      "bytes": 340
     },
     {
       "source": "src/live/live_fileshare_cache.cpp",
@@ -607,15 +613,15 @@
     },
     {
       "source": "src/live/live_sessions_win.cpp",
-      "matched": 8,
+      "matched": 12,
       "nonmatching": 0,
-      "bytes": 229
+      "bytes": 338
     },
     {
       "source": "src/live/live_stats.cpp",
-      "matched": 11,
+      "matched": 15,
       "nonmatching": 0,
-      "bytes": 592
+      "bytes": 658
     },
     {
       "source": "src/live/live_steam.cpp",
@@ -1136,8 +1142,8 @@
     },
     {
       "name": "jz0",
-      "functions": 698,
-      "bytes": 27542
+      "functions": 809,
+      "bytes": 30791
     }
   ]
 }
