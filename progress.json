@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1558,
+    "matched": 1566,
     "total": 22620
   },
   "bytes": {
-    "matched": 83257,
+    "matched": 83423,
     "total": 5866711
   },
   "not_counted": {
@@ -19,12 +19,12 @@
       "bytes": 32234
     }
   },
-  "percent": 1.419,
+  "percent": 1.422,
   "nonmatching": 45,
   "names": {
     "high": 558,
     "medium": 349,
-    "low": 364,
+    "low": 372,
     "unrated": 289,
     "placeholder": 0
   },
@@ -37,9 +37,9 @@
     },
     {
       "source": "src/EffectsCore/fx_load_obj.cpp",
-      "matched": 35,
+      "matched": 36,
       "nonmatching": 0,
-      "bytes": 891
+      "bytes": 911
     },
     {
       "source": "src/EffectsCore/fx_marks.cpp",
@@ -145,9 +145,9 @@
     },
     {
       "source": "src/cgame/cg_scr_main.cpp",
-      "matched": 124,
+      "matched": 125,
       "nonmatching": 0,
-      "bytes": 5152
+      "bytes": 5173
     },
     {
       "source": "src/cgame/cg_visionsets.cpp",
@@ -271,9 +271,9 @@
     },
     {
       "source": "src/clientscript/cscr_vm.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 69
+      "bytes": 103
     },
     {
       "source": "src/clientscript/scr_const.cpp",
@@ -283,9 +283,9 @@
     },
     {
       "source": "src/database/db_file_load.cpp",
-      "matched": 5,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 86
+      "bytes": 116
     },
     {
       "source": "src/database/db_load.cpp",
@@ -475,9 +475,9 @@
     },
     {
       "source": "src/game_mp/g_scr_main_mp.cpp",
-      "matched": 123,
+      "matched": 124,
       "nonmatching": 0,
-      "bytes": 7295
+      "bytes": 7304
     },
     {
       "source": "src/game_mp/g_spawnsystem_mp.cpp",
@@ -613,15 +613,15 @@
     },
     {
       "source": "src/live/live_sessions_win.cpp",
-      "matched": 12,
+      "matched": 13,
       "nonmatching": 0,
-      "bytes": 338
+      "bytes": 354
     },
     {
       "source": "src/live/live_stats.cpp",
-      "matched": 15,
+      "matched": 16,
       "nonmatching": 0,
-      "bytes": 658
+      "bytes": 667
     },
     {
       "source": "src/live/live_steam.cpp",
@@ -757,9 +757,9 @@
     },
     {
       "source": "src/qcommon/net_chan_mp.cpp",
-      "matched": 12,
+      "matched": 13,
       "nonmatching": 0,
-      "bytes": 536
+      "bytes": 563
     },
     {
       "source": "src/qcommon/radiant_remote.cpp",
@@ -1142,8 +1142,8 @@
     },
     {
       "name": "jz0",
-      "functions": 809,
-      "bytes": 30791
+      "functions": 817,
+      "bytes": 30957
     }
   ]
 }
