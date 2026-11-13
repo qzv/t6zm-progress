@@ -2,11 +2,11 @@
   "name": "t6zm",
   "description": "Call of Duty: Black Ops II zombies client (Steam, CEG removed)",
   "functions": {
-    "matched": 1620,
+    "matched": 1636,
     "total": 22620
   },
   "bytes": {
-    "matched": 84874,
+    "matched": 85375,
     "total": 5866711
   },
   "not_counted": {
@@ -19,12 +19,12 @@
       "bytes": 32234
     }
   },
-  "percent": 1.447,
+  "percent": 1.455,
   "nonmatching": 45,
   "names": {
     "high": 558,
     "medium": 349,
-    "low": 426,
+    "low": 442,
     "unrated": 289,
     "placeholder": 0
   },
@@ -619,9 +619,9 @@
     },
     {
       "source": "src/live/live_stats.cpp",
-      "matched": 19,
+      "matched": 20,
       "nonmatching": 0,
-      "bytes": 717
+      "bytes": 772
     },
     {
       "source": "src/live/live_steam.cpp",
@@ -691,9 +691,9 @@
     },
     {
       "source": "src/qcommon/cmd.cpp",
-      "matched": 5,
+      "matched": 6,
       "nonmatching": 0,
-      "bytes": 208
+      "bytes": 270
     },
     {
       "source": "src/qcommon/com_buildinfo.cpp",
@@ -750,6 +750,12 @@
       "bytes": 285
     },
     {
+      "source": "src/qcommon/mem_track.cpp",
+      "matched": 1,
+      "nonmatching": 0,
+      "bytes": 38
+    },
+    {
       "source": "src/qcommon/msg_mp.cpp",
       "matched": 12,
       "nonmatching": 0,
@@ -799,15 +805,15 @@
     },
     {
       "source": "src/server/sv_game.cpp",
-      "matched": 11,
+      "matched": 15,
       "nonmatching": 0,
-      "bytes": 310
+      "bytes": 409
     },
     {
       "source": "src/server_mp/sv_ccmds_mp.cpp",
-      "matched": 7,
+      "matched": 8,
       "nonmatching": 0,
-      "bytes": 127
+      "bytes": 136
     },
     {
       "source": "src/server_mp/sv_init_mp.cpp",
@@ -829,9 +835,9 @@
     },
     {
       "source": "src/server_mp/sv_snapshot_mp.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 11
+      "bytes": 72
     },
     {
       "source": "src/sound/snd_debug.cpp",
@@ -865,9 +871,9 @@
     },
     {
       "source": "src/ui/l_precomp.cpp",
-      "matched": 3,
+      "matched": 4,
       "nonmatching": 0,
-      "bytes": 97
+      "bytes": 113
     },
     {
       "source": "src/ui/ui_emblem.cpp",
@@ -925,15 +931,15 @@
     },
     {
       "source": "src/universal/com_expressions_eval.cpp",
-      "matched": 1,
+      "matched": 2,
       "nonmatching": 0,
-      "bytes": 12
+      "bytes": 24
     },
     {
       "source": "src/universal/com_files.cpp",
-      "matched": 13,
+      "matched": 15,
       "nonmatching": 0,
-      "bytes": 849
+      "bytes": 923
     },
     {
       "source": "src/universal/com_math.cpp",
@@ -1003,9 +1009,9 @@
     },
     {
       "source": "src/universal/dvar.cpp",
-      "matched": 67,
+      "matched": 68,
       "nonmatching": 2,
-      "bytes": 3555
+      "bytes": 3574
     },
     {
       "source": "src/universal/mem_default.cpp",
@@ -1033,9 +1039,9 @@
     },
     {
       "source": "src/universal/mem_userhunk.cpp",
-      "matched": 14,
+      "matched": 15,
       "nonmatching": 2,
-      "bytes": 494
+      "bytes": 524
     },
     {
       "source": "src/universal/memfile.cpp",
@@ -1147,9 +1153,9 @@
     },
     {
       "source": "src/xanim/xanim.cpp",
-      "matched": 6,
+      "matched": 7,
       "nonmatching": 0,
-      "bytes": 68
+      "bytes": 94
     }
   ],
   "contributors": [
@@ -1160,8 +1166,8 @@
     },
     {
       "name": "jz0",
-      "functions": 871,
-      "bytes": 32408
+      "functions": 887,
+      "bytes": 32909
     }
   ]
 }
